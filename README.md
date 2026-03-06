@@ -1,16 +1,19 @@
-## Hi there 👋
+# Hi there, I'm Aloncie! 👋
 
-<!--
-**Aloncie/aloncie** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm a passionate developer and student from the 2026 class, building tools that merge functionality with a great user experience. My main project right now is **[Rwal](https://github.com/Aloncie/Rwal)**, a cross-platform wallpaper utility.
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 📊 GitHub Stats
+
+[![Aloncie's GitHub stats](https://github-readme-stats.vercel.app/api?username=Aloncie)](https://github.com/Aloncie/github-readme-stats)
+
+---
+
+### 🚀 Current Project: Rwal
+A hybrid CLI wallpaper utility with a vision to become a cross-platform, user-friendly wallpaper manager.  
+🔗 [Check out the repo!](https://github.com/Aloncie/Rwal)
+
+---
+
+![Profile views](https://komarev.com/ghpvc/?username=Aloncie&color=blue)
