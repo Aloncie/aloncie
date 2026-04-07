@@ -1,20 +1,39 @@
-# Hi there, I'm Aloncie! 👋
+<img width="1792" height="592" alt="Image" src="https://github.com/user-attachments/assets/491c781a-52a4-483b-9e70-a4c0a9dbe4fc" />
 
-I'm a passionate developer and student from the 2026 class, building tools that merge functionality with a great user experience. My main project right now is **[Rwal](https://github.com)**, a cross-platform wallpaper utility.
+<div align = center>
+  
+# Hi, there! 👋
 
----
+<div align = left>
 
-### 📊 GitHub Stats
+I am _Bakuta Bogdan_ aka Aloncie. I am **Student** and aspiring **Software Engineer** with a deep interest in C++, system architecture, and Linux environments. Currently, I am balancing advanced high school studies (Physics, Mathematics) with a rigorous self-education roadmap in Computer Science.
 
-[![Aloncie's GitHub stats](https://my-stats-api.vercel.app)](https://github.com/Aloncie)
+## My current focus 🗺️
 
----
+- Deep diving into C++20 and the Qt framework.
+- Studying software construction principles (inspired by Steve McConnell's "Code Complete").
+- Developing **'Rwal'** — a lightweight, cross-platform wallpaper utility designed for speed and flexibility. (See in projects more detailed👇) 
 
-### 🚀 Current Project: Rwal
-A hybrid CLI wallpaper utility with a vision to become a cross-platform, user-friendly wallpaper manager.  
-🔗 [Check out the repo!](https://github.com)
+My long-term goal is to contribute to the international tech ecosystem, with a particular interest in the IT market. 
+I’m open to connecting with fellow developers and mentors.
 
----
+<p align="left">
+  <summary><h2><b>My stack📚</b></h2></summary>
+  <p>
+    <h3>Langs</h3>
+    <img src="https://skillicons.dev/icons?i=cpp&perline=7" />
+    <h3>Frameworks / Tools</h3>
+    <img src="https://skillicons.dev/icons?i=docker,git,cmake&perline=7" />
+    <h3>Software</h3>
+    <img src="https://skillicons.dev/icons?i=neovim,qt,linux,bash&perline=7" />
+    <br>
+  </p>
+</p>
 
-![Profile views](https://komarev.com/ghpvc/?username=Aloncie&color=blue)
+## 📫 How to reach me?
+- [LinkedIn](www.linkedin.com/in/aloncie/) 
+- [Email](mailto:Aloncie@proton.me)
+- [Telegram](https://t.me/Aloncie)
 
+
+![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Aloncie&theme=holi) 
