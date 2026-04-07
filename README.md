@@ -6,7 +6,7 @@
 
 <div align = left>
 
-I am _Bakuta Bogdan_ aka Aloncie. I am **Student** and aspiring **Software Engineer** with a deep interest in C++, system architecture, and Linux environments. Currently, I am balancing advanced high school studies (Physics, Mathematics) with a rigorous self-education roadmap in Computer Science.
+I am _Bakuta Bogdan_ aka Aloncie. I am **Student** and aspiring **Software Engineer** with a deep interest in C++, system architecture, and Linux. Currently, I am balancing advanced high school studies (Physics, Mathematics) with a rigorous self-education roadmap in Computer Science.
 
 ## My current focus 🗺️
 
