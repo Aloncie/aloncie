@@ -25,7 +25,7 @@ I’m open to connecting with fellow developers and mentors.
     <h3>Frameworks / Tools</h3>
     <img src="https://skillicons.dev/icons?i=docker,git,cmake,qt&perline=7" />
     <h3>Software</h3>
-    <img src="https://skillicons.dev/icons?i=neovim,qt,linux,bash&perline=7" />
+    <img src="https://skillicons.dev/icons?i=neovim,arch,bash&perline=7" />
     <br>
   </p>
 </p>
