@@ -6,12 +6,12 @@
 
 <div align = left>
 
-I am _Bakuta Bogdan_ aka Aloncie. I am **Student** and aspiring **Software Engineer** with a deep interest in C++, system architecture, and Linux. Currently, I am balancing advanced high school studies (Physics, Mathematics) with a rigorous self-education roadmap in Computer Science.
+I am _Bakuta Bogdan_ aka _Aloncie_. I am **Student** and aspiring **Software Engineer** with a deep interest in C++, system architecture, and Linux. Currently, I am balancing advanced high school studies (Physics, Mathematics) with a rigorous self-education roadmap in Computer Science.
 
 ## My current focus 🗺️
 
 - Deep diving into C++20 and the Qt framework.
-- Studying software construction principles (inspired by Steve McConnell's "Code Complete").
+- Studying software construction principles.
 - Developing **'Rwal'** — a lightweight, cross-platform wallpaper utility designed for speed and flexibility. (See in projects more detailed👇) 
 
 My long-term goal is to contribute to the international tech ecosystem, with a particular interest in the IT market. 
