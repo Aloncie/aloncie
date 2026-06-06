@@ -31,7 +31,7 @@ I’m open to connecting with fellow developers and mentors.
 </p>
 
 ## 📫 How to reach me?
-- [LinkedIn](www.linkedin.com/in/aloncie/) 
+- [LinkedIn](https://www.linkedin.com/in/aloncie) 
 - [Email](mailto:Aloncie@proton.me)
 - [Telegram](https://t.me/Aloncie)
 
