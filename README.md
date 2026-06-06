@@ -21,11 +21,11 @@ I’m open to connecting with fellow developers and mentors.
   <summary><h2><b>My stack📚</b></h2></summary>
   <p>
     <h3>Langs</h3>
-    <img src="https://skillicons.dev/icons?i=cpp,mysql&perline=7" />
+    <img src="https://skillicons.dev/icons?i=cpp,python,bash,mysql&perline=7" />
     <h3>Frameworks / Tools</h3>
     <img src="https://skillicons.dev/icons?i=docker,git,cmake,qt&perline=7" />
     <h3>Software</h3>
-    <img src="https://skillicons.dev/icons?i=neovim,arch,bash&perline=7" />
+    <img src="https://skillicons.dev/icons?i=neovim,arch&perline=7" />
     <br>
   </p>
 </p>
