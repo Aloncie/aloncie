@@ -31,7 +31,7 @@ I specialize in writing deterministic, resource-efficient code and building low-
 - **Infrastructure:** Encapsulated platform-specific code using Compilation Firewalls (Pimpl) and automated cross-platform assembly via advanced CMake.
 
 ## 🧮 Algorithms & Problem Solving
-- **Codeforces [Profile_Link]:** Consistent problem-solving practice (~1400-1500 rating level).
+- **Competitive Programming:** Consistent practice on [Codeforces (Profile)](https://codeforces.com/profile/Aloncie) ~1400-1500 rating level and [LeetCode (Profile)](https://leetcode.com/Aloncie/).
 - **Core Stack:** Binary Search (Integer & Real Numbers), Greedy Algorithms, Prefix Sums.
 - **Focus:** Debugging complex constraints, $O(N)$ optimizations, and preventing integer overflows in high-load scenarios.
 
