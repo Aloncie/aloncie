@@ -14,7 +14,7 @@ I specialize in writing deterministic, resource-efficient code and building low-
   <summary><h2><b>My stack📚</b></h2></summary>
   <p>
     <h3>Langs</h3>
-    <img src="https://skillicons.dev/icons?i=cpp,mysql&perline=7" />
+    <img src="https://skillicons.dev/icons?i=cpp&perline=7" />
     <h3>Frameworks / Tools</h3>
     <img src="https://skillicons.dev/icons?i=docker,git,cmake,qt&perline=7" />
     <br>
