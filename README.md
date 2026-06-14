@@ -2,38 +2,49 @@
 
 <div align = center>
   
-# Hi, there! 👋
+# Hi, I'm Bogdan (Aloncie) 👋
 
 <div align = left>
 
-I am _Bakuta Bogdan_ aka _Aloncie_. I am **Student** and aspiring **Software Engineer** with a deep interest in C++, system architecture, and Linux. Currently, I am balancing advanced high school studies (Physics, Mathematics) with a rigorous self-education roadmap in Computer Science.
+**Systems Software Engineer | C++20/23 • Linux • Algorithms**
 
-## My current focus 🗺️
-
-- Deep diving into C++20 and the Qt framework.
-- Studying software construction principles.
-- Developing **'Rwal'** — a lightweight, cross-platform wallpaper utility designed for speed and flexibility. (See in projects more detailed👇) 
-
-My long-term goal is to contribute to the international tech ecosystem, with a particular interest in the IT market. 
-I’m open to connecting with fellow developers and mentors.
+I specialize in writing deterministic, resource-efficient code and building low-level system utilities. Applying a strong Mathematics and Physics background to system architecture, with a focus on zero-overhead abstractions and strict memory hygiene.
 
 <p align="left">
   <summary><h2><b>My stack📚</b></h2></summary>
   <p>
     <h3>Langs</h3>
-    <img src="https://skillicons.dev/icons?i=cpp,python,bash,mysql&perline=7" />
+    <img src="https://skillicons.dev/icons?i=cpp,mysql&perline=7" />
     <h3>Frameworks / Tools</h3>
     <img src="https://skillicons.dev/icons?i=docker,git,cmake,qt&perline=7" />
-    <h3>Software</h3>
-    <img src="https://skillicons.dev/icons?i=neovim,arch&perline=7" />
     <br>
   </p>
 </p>
 
-## 📫 How to reach me?
+<p align="left">
+
+
+## 🚀 Featured Project: [Rwal](https://github.com/Aloncie/Rwal)
+*Cross-platform asynchronous system utility for desktop environments.*
+- **Clean Architecture:** Engineered strict interface boundaries (`IWallpaperSetter`, `IFileSystem`) to decouple business logic from OS syscalls, supporting both Linux (D-Bus, X11/Wayland) and Windows (Win32 API) in a unified codebase.
+- **Binary Detox & Performance:** Refactored the core by stripping heavy GUI frameworks (Qt) in favor of standard C++20 (STL, `std::jthread`), drastically reducing binary footprint. Implemented a custom state-based TUI using `ncurses`.
+- **Infrastructure:** Encapsulated platform-specific code using Compilation Firewalls (Pimpl) and automated cross-platform assembly via advanced CMake.
+
+## 🧮 Algorithms & Problem Solving
+- **Codeforces [Profile_Link]:** Consistent problem-solving practice (~1400-1500 rating level).
+- **Core Stack:** Binary Search (Integer & Real Numbers), Greedy Algorithms, Prefix Sums.
+- **Focus:** Debugging complex constraints, $O(N)$ optimizations, and preventing integer overflows in high-load scenarios.
+
+## 🛠 Tools & Knowledge Management
+- **Environment:** Arch Linux, Neovim, Zsh.
+- **Build/CI:** CMake, Git (Conventional Commits), Docker (Multi-stage builds).
+- **Knowledge Base:** Maintain a 100+ node Zettelkasten system in Obsidian for systematic retention of complex C++ standards and architectural patterns.
+
+---
+
+📫 **Contact & Connect:**
 - [LinkedIn](https://www.linkedin.com/in/aloncie) 
 - [Email](mailto:Aloncie@proton.me)
 - [Telegram](https://t.me/Aloncie)
-
 
 ![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Aloncie&theme=holi) 
