@@ -1,4 +1,4 @@
-<img width="1792" height="592" alt="Image" src="https://github.com/user-attachments/assets/491c781a-52a4-483b-9e70-a4c0a9dbe4fc" />
+<img width="1792" height="592" alt="Image" src="https://github.com/Aloncie/aloncie/blob/main/ProfileBanner2.png" />
 
 <div align = center>
   
