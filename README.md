@@ -10,19 +10,11 @@
 
 I specialize in writing deterministic, resource-efficient code and building low-level system utilities. Applying a strong Mathematics and Physics background to system architecture, with a focus on zero-overhead abstractions and strict memory hygiene.
 
+
 <p align="left">
   <summary><h2><b>My stack📚</b></h2></summary>
-  <p>
-    <h3>Langs</h3>
-    <img src="https://skillicons.dev/icons?i=cpp&perline=7" />
-    <h3>Frameworks / Tools</h3>
-    <img src="https://skillicons.dev/icons?i=docker,git,cmake,qt&perline=7" />
-    <br>
-  </p>
+  <img src="https://skillicons.dev/icons?i=cpp,linux,cmake,docker,git,qt" alt="C++, Linux, CMake, Docker, Git, Qt" title="My Tech Stack" />
 </p>
-
-<p align="left">
-
 
 ## 🚀 Featured Project: [Rwal](https://github.com/Aloncie/Rwal)
 *Cross-platform asynchronous system utility for desktop environments.*
@@ -37,6 +29,7 @@ I specialize in writing deterministic, resource-efficient code and building low-
 
 ## 🛠 Tools & Knowledge Management
 - **Environment:** Arch Linux, Neovim, Zsh.
+- **Foundations & Tooling:** Basic SQL(MySQL), Bash scripting
 - **Build/CI:** CMake, Git (Conventional Commits), Docker (Multi-stage builds).
 - **Knowledge Base:** Maintain a 100+ node Zettelkasten system in Obsidian for systematic retention of complex C++ standards and architectural patterns.
 
