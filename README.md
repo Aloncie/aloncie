@@ -38,7 +38,7 @@ Currently completing secondary education (physics‑math focus) while studying s
 
 ## 🛠 Tools & Knowledge Management
 - **Environment:** Arch Linux, Neovim, Zsh.
-- **Foundations & Tooling:** Basic SQL(MySQL), Bash scripting
+- **Databases & Infrastructure**: PostgreSQL, MySQL, Docker (containerization for local DB environments), Relational Algebra, Query Optimization.
 - **Build & CI/CD:** CMake, Git (Conventional Commits), Docker (Multi-stage builds), GoogleTest & GoogleMock.
 - **Knowledge Base:** Maintain a 100+ node Zettelkasten system in Obsidian for systematic retention of complex C++ standards and architectural patterns.
 
