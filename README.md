@@ -17,10 +17,19 @@ I specialize in writing deterministic, resource-efficient code and building low-
 </p>
 
 ## 🚀 Featured Project: [Rwal](https://github.com/Aloncie/Rwal)
-*Cross-platform asynchronous system utility for desktop environments.*
-- **Clean Architecture:** Engineered strict interface boundaries (`IWallpaperSetter`, `IFileSystem`) to decouple business logic from OS syscalls, supporting both Linux (D-Bus, X11/Wayland) and Windows (Win32 API) in a unified codebase.
-- **Binary Detox & Performance:** Refactored the core by stripping heavy GUI frameworks (Qt) in favor of standard C++20 (STL, `std::jthread`), drastically reducing binary footprint. Implemented a custom state-based TUI using `ncurses`.
-- **Infrastructure:** Encapsulated platform-specific code using Compilation Firewalls (Pimpl) and automated cross-platform assembly via advanced CMake.
+
+*A cross‑platform wallpaper manager that automatically downloads fresh wallpapers from Wallhaven based on your configuration and applies them on Linux (GNOME, KDE, Hyprland) or Windows.*
+
+- **Architecture:** Strict interface boundaries (`IWallpaperSetter`, `IFileSystem`) decouple business logic from OS‑specific APIs. A single binary adapts at runtime to the current desktop environment (no recompilation), and optional dependencies like `libgio-2.0` are loaded dynamically via `dlopen` so that non‑GNOME users never pay for unused libraries.
+- **Lightweight Core:** Removed the Qt framework and rewrote the stack in standard C++20 (`std::jthread`, `std::unique_ptr`, RAII). The size of the binary data has remained almost unchanged in size, but has removed a huge dependency that prevented full cross-platform support.
+- **Interactive TUI:** Custom ncurses‑based interface with a state‑machine Navigator pattern, asynchronous wallpaper refresh, and real‑time keyword editing through the system `$EDITOR`.
+- **Testing & CI:** Unit and integration tests written with GoogleTest + GoogleMock. GitHub Actions builds and packages the project into `.deb`, `.rpm`, `.tar.gz` and `.zip`, delivering ready‑to‑use binaries on every release.
+- **System Integration:** systemd timers for background rotation, hot‑reload of configuration, and offline fallback to locally cached wallpapers when the network is unavailable.
+
+**Stack:** C++20, CMake, Linux API, Win32 API, D‑Bus, libcurl, ncurses, GSettings, GoogleTest & GoogleMock, Docker.
+
+## 📚 Education
+Currently completing secondary education (physics‑math focus) while studying systems programming and algorithms at a university level.
 
 ## 🧮 Algorithms & Problem Solving
 - **Competitive Programming:** Consistent practice on [Codeforces (Profile)](https://codeforces.com/profile/Aloncie) ~1400-1500 rating level and [LeetCode (Profile)](https://leetcode.com/Aloncie/).
@@ -30,7 +39,7 @@ I specialize in writing deterministic, resource-efficient code and building low-
 ## 🛠 Tools & Knowledge Management
 - **Environment:** Arch Linux, Neovim, Zsh.
 - **Foundations & Tooling:** Basic SQL(MySQL), Bash scripting
-- **Build/CI:** CMake, Git (Conventional Commits), Docker (Multi-stage builds).
+- **Build & CI/CD:** CMake, Git (Conventional Commits), Docker (Multi-stage builds), GoogleTest & GoogleMock.
 - **Knowledge Base:** Maintain a 100+ node Zettelkasten system in Obsidian for systematic retention of complex C++ standards and architectural patterns.
 
 ---
