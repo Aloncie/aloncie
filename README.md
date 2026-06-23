@@ -21,7 +21,7 @@ I specialize in writing deterministic, resource-efficient code and building low-
 *A cross‑platform wallpaper manager that automatically downloads fresh wallpapers from Wallhaven based on your configuration and applies them on Linux (GNOME, KDE, Hyprland) or Windows.*
 
 - **Architecture:** Strict interface boundaries (`IWallpaperSetter`, `IFileSystem`) decouple business logic from OS‑specific APIs. A single binary adapts at runtime to the current desktop environment (no recompilation), and optional dependencies like `libgio-2.0` are loaded dynamically via `dlopen` so that non‑GNOME users never pay for unused libraries.
-- **Lightweight Core:** Removed the Qt framework and rewrote the stack in standard C++20 (`std::jthread`, `std::unique_ptr`, RAII). The size of the binary data has hardly changed, but a huge dependency has been eliminated that prevented full cross-platform support.
+- **Cross-platform via STL:** Removed the Qt framework and rewrote the stack in standard C++20 (`std::jthread`, `std::unique_ptr`, RAII). The size of the binary data has hardly changed, but a huge dependency has been eliminated that prevented full cross-platform support.
 - **Interactive TUI:** Custom ncurses‑based interface with a state‑machine Navigator pattern, asynchronous wallpaper refresh, and real‑time keyword editing through the system `$EDITOR`.
 - **Testing & CI:** Unit and integration tests written with GoogleTest + GoogleMock. GitHub Actions builds and packages the project into `.deb`, `.rpm`, `.tar.gz` and `.zip`, delivering ready‑to‑use binaries on every release.
 - **System Integration:** systemd timers for background rotation, hot‑reload of configuration, and offline fallback to locally cached wallpapers when the network is unavailable.
