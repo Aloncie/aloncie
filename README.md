@@ -32,8 +32,8 @@ I specialize in writing deterministic, resource-efficient code and building low-
 Currently completing secondary education (physics‑math focus) while studying systems programming and algorithms at a university level.
 
 ## 🧮 Algorithms & Problem Solving
-- **Competitive Programming:** Consistent practice on [Codeforces (Profile)](https://codeforces.com/profile/Aloncie) ~1400-1500 rating level and [LeetCode (Profile)](https://leetcode.com/Aloncie/).
-- **Core Stack:** Binary Search (Integer & Real Numbers), Greedy Algorithms, Prefix Sums.
+- **Competitive Programming:** Competitive Programming: Regular practice on [Codeforces](https://codeforces.com/profile/Aloncie), focusing on algorithmic problems with ~1500 difficulty rating.Aloncie) and [LeetCode](https://leetcode.com/Aloncie/).
+- **Data Structures & Algorithms:** Binary Search, Greedy Approaches, Two Pointers / Sliding Window, Prefix Sums.
 - **Focus:** Debugging complex constraints, $O(N)$ optimizations, and preventing integer overflows in high-load scenarios.
 
 ## 🛠 Tools & Knowledge Management
