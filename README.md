@@ -49,4 +49,4 @@ Currently completing secondary education (physics‑math focus) while studying s
 - [Email](mailto:Aloncie@proton.me)
 - [Telegram](https://t.me/Aloncie)
 
-![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Aloncie&theme=holi) 
+![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Aloncie&theme=discord_old_blurple)
