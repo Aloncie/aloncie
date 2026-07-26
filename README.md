@@ -13,7 +13,7 @@ I specialize in writing deterministic, resource-efficient code and building low-
 
 <p align="left">
   <summary><h2><b>My stack📚</b></h2></summary>
-  <img src="https://skillicons.dev/icons?i=cpp,linux,cmake,docker,git,qt" alt="C++, Linux, CMake, Docker, Git, Qt" title="My Tech Stack" />
+  <img src="https://skillicons.dev/icons?i=cpp,linux,cmake,docker,git" alt="C++, Linux, CMake, Docker, Git" title="My Tech Stack" />
 </p>
 
 ## 🚀 Featured Project: [Rwal](https://github.com/Aloncie/Rwal)
