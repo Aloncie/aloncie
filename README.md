@@ -6,9 +6,9 @@
 
 <div align = left>
 
-**Systems Software Engineer | C++20/23 • Linux • Algorithms**
+**Systems Software Engineer | C++20/23 • Linux Systems & Infrastructure  • Algorithms**
 
-I specialize in writing deterministic, resource-efficient code and building low-level system utilities. Applying a strong Mathematics and Physics background to system architecture, with a focus on zero-overhead abstractions and strict memory hygiene.
+I specialize in writing deterministic, resource-efficient code, building low-level system utilities, and maintaining self-hosted Linux infrastructure. Applying a strong Mathematics and Physics background to system architecture, with a focus on zero-overhead abstractions, strict memory hygiene, and practical system administration.
 
 
 <p align="left">
@@ -28,6 +28,16 @@ I specialize in writing deterministic, resource-efficient code and building low-
 
 **Stack:** C++20, CMake, Linux API, Win32 API, D‑Bus, libcurl, ncurses, GSettings, GoogleTest & GoogleMock, Docker.
 
+## **🖥️ Infrastructure Project: Self-Hosted Debian Home Server**
+
+*A 24/7 headless Debian Linux server providing local infrastructure, network-level security, and automated media distribution in a resource-constrained environment.*
+
+- **OS Administration & Security:** Configured a lightweight headless Debian environment with custom systemd services and timers, hardened SSH access, non-root execution policies, and strict memory/CPU resource caps.
+- **Container Orchestration:** Architected a multi-container pipeline managed via Docker Compose, integrating AdGuard Home, Jellyfin, and qBittorrent with isolated bridge networks to decouple internal traffic.
+- **Network & Service Automation:** Deployed DNS-level filtering via AdGuard Home for tracker/ad blocking across local network devices, configured a local proxy, and set up continuous 24/7 torrent seeding and media delivery.
+
+**Stack:** Debian Linux, Docker, Docker Compose, systemd, Bash, AdGuard Home, Jellyfin, qBittorrent, Networking (DNS, TCP/IP, Port Forwarding).
+
 ## 📚 Education
 Currently completing secondary education (physics‑math focus) while studying systems programming and algorithms at a university level.
 
@@ -38,7 +48,7 @@ Currently completing secondary education (physics‑math focus) while studying s
 
 ## 🛠 Tools & Knowledge Management
 - **Environment:** Arch Linux, Neovim, Zsh.
-- **Databases & Infrastructure**: PostgreSQL, MySQL, Docker (containerization for local DB environments), Relational Algebra, Query Optimization.
+- **Databases & Infrastructure**: Debian Linux (Self-Hosted 24/7 Server), PostgreSQL, MySQL, Docker & Docker Compose (Multi-container Orchestration), Relational Algebra, Query Optimization.
 - **Build & CI/CD:** CMake, Git (Conventional Commits), Docker (Multi-stage builds), GoogleTest & GoogleMock.
 - **Knowledge Base:** Maintain a 100+ node Zettelkasten system in Obsidian for systematic retention of complex C++ standards and architectural patterns.
 
