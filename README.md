@@ -34,8 +34,8 @@ I specialize in writing deterministic, resource-efficient code, building low-lev
 
 📺 [Video walkthrough](https://youtu.be/I3JlJ0OKSJ8) · [Configs & Docker Compose](https://github.com/Aloncie/Server)
 
-- **OS Administration & Security:** Configured a lightweight headless Debian environment with custom systemd services and timers, hardened SSH access, non-root execution policies, and strict memory/CPU resource caps.
-- **Container Orchestration:** Architected a multi-container pipeline managed via Docker Compose, integrating AdGuard Home, Jellyfin, and qBittorrent with isolated bridge networks to decouple internal traffic.
+- **OS Administration:** Configured a lightweight headless Debian environment: BBR and IP forwarding tuning, Docker Engine, v2rayA/Xray on the host, lid-switch handling for a laptop-as-server, and containers running as a non-root user (PUID/PGID 1000).
+- **Container Orchestration:** Runs AdGuard Home (host network for DNS), Jellyfin and qBittorrent as separate Docker Compose stacks with a shared media volume, hardware transcoding through `/dev/dri` and direct play to keep CPU load low, and the qBittorrent WebUI bound to a LAN address only.
 - **Network & Service Automation:** Deployed DNS-level filtering via AdGuard Home for tracker/ad blocking across local network devices, configured a local proxy, and set up continuous 24/7 torrent seeding and media delivery.
 
 **Stack:** Debian Linux, Docker, Docker Compose, systemd, Bash, AdGuard Home, Jellyfin, qBittorrent, Networking (DNS, TCP/IP, Port Forwarding).
