@@ -32,6 +32,8 @@ I specialize in writing deterministic, resource-efficient code, building low-lev
 
 *A 24/7 headless Debian Linux server providing local infrastructure, network-level security, and automated media distribution in a resource-constrained environment.*
 
+📺 [Video walkthrough](https://youtu.be/I3JlJ0OKSJ8) · [Configs & Docker Compose](https://github.com/Aloncie/Server)
+
 - **OS Administration & Security:** Configured a lightweight headless Debian environment with custom systemd services and timers, hardened SSH access, non-root execution policies, and strict memory/CPU resource caps.
 - **Container Orchestration:** Architected a multi-container pipeline managed via Docker Compose, integrating AdGuard Home, Jellyfin, and qBittorrent with isolated bridge networks to decouple internal traffic.
 - **Network & Service Automation:** Deployed DNS-level filtering via AdGuard Home for tracker/ad blocking across local network devices, configured a local proxy, and set up continuous 24/7 torrent seeding and media delivery.
@@ -56,5 +58,6 @@ Currently completing secondary education (physics‑math focus) while studying s
 
 📫 **Contact & Connect:**
 - [LinkedIn](https://www.linkedin.com/in/aloncie) 
+- [YouTube](https://www.youtube.com/@Aloncie)
 - [Email](mailto:Aloncie@proton.me)
 - [Telegram](https://t.me/Aloncie)
