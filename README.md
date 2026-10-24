@@ -52,7 +52,6 @@ Currently completing secondary education (physics‑math focus) while studying s
 - **Environment:** Arch Linux, Neovim, Zsh.
 - **Databases & Infrastructure**: Debian Linux (Self-Hosted 24/7 Server), PostgreSQL, MySQL, Docker & Docker Compose (Multi-container Orchestration), Relational Algebra, Query Optimization.
 - **Build & CI/CD:** CMake, Git (Conventional Commits), Docker (Multi-stage builds), GoogleTest & GoogleMock.
-- **Knowledge Base:** Maintain a 100+ node Zettelkasten system in Obsidian for systematic retention of complex C++ standards and architectural patterns.
 
 ---
 
