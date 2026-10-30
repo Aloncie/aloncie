@@ -6,9 +6,11 @@
 
 <div align = left>
 
-**Systems Software Engineer | C++20/23 • Linux Systems & Infrastructure  • Algorithms**
+**C++ developer (C++20, Linux) · systems programming · algorithms**
 
-I specialize in writing deterministic, resource-efficient code, building low-level system utilities, and maintaining self-hosted Linux infrastructure. Applying a strong Mathematics and Physics background to system architecture, with a focus on zero-overhead abstractions, strict memory hygiene, and practical system administration.
+High-school student (physics-math class), open to part-time remote C++ roles.
+
+I write systems software in modern C++ on Linux, and I care about code that is predictable, cheap to run and easy to reason about.
 
 
 <p align="left">
@@ -20,11 +22,13 @@ I specialize in writing deterministic, resource-efficient code, building low-lev
 
 *A cross‑platform wallpaper manager that automatically downloads fresh wallpapers from Wallhaven based on your configuration and applies them on Linux (GNOME, KDE, Hyprland) or Windows.*
 
+**Status:** v0.7.2-beta, development paused (school and olympiads). Built solo over about a year, 620+ commits.
+
 - **Architecture:** Strict interface boundaries (`IWallpaperSetter`, `IFileSystem`) decouple business logic from OS‑specific APIs. A single binary adapts at runtime to the current desktop environment (no recompilation), and optional dependencies like `libgio-2.0` are loaded dynamically via `dlopen` so that non‑GNOME users never pay for unused libraries.
-- **Cross-platform via STL:** Eliminated massive framework dependencies (Qt) to achieve native cross-platform support via standard C++20, drastically reducing deployment overhead without bloating the binary.
+- **Removed Qt:** users shouldn't have to install a huge framework for a small utility, so I replaced Qt with plain C++20/STL and native APIs (D-Bus, Win32/COM, Unix sockets). Binary size and CPU usage stayed about the same (TUI at 0.1–0.4% CPU), but the heavy dependency is gone.
 - **Interactive TUI:** Custom ncurses‑based interface with a state‑machine Navigator pattern, asynchronous wallpaper refresh, and real‑time keyword editing through the system `$EDITOR`.
 - **Testing & CI:** Unit and integration tests written with GoogleTest + GoogleMock. GitHub Actions builds and packages the project into `.deb`, `.rpm`, `.tar.gz` and `.zip`, delivering ready‑to‑use binaries on every release.
-- **System Integration:** systemd timers for background rotation, hot‑reload of configuration, and offline fallback to locally cached wallpapers when the network is unavailable.
+- **System Integration:** systemd timers for background rotation, hot‑reload of configuration, and an offline mode that picks a random wallpaper from your saved collection when the network is unavailable.
 
 **Stack:** C++20, CMake, Linux API, Win32 API, D‑Bus, libcurl, ncurses, GSettings, GoogleTest & GoogleMock, Docker.
 
@@ -41,17 +45,18 @@ I specialize in writing deterministic, resource-efficient code, building low-lev
 **Stack:** Debian Linux, Docker, Docker Compose, systemd, Bash, AdGuard Home, Jellyfin, qBittorrent, Networking (DNS, TCP/IP, Port Forwarding).
 
 ## 📚 Education
-Currently completing secondary education (physics‑math focus) while studying systems programming and algorithms at a university level.
+High school, physics-math class; olympiads in mathematics and informatics.
 
 ## 🧮 Algorithms & Problem Solving
-- **Competitive Programming:** Regular practice on [Codeforces](https://codeforces.com/profile/Aloncie), focusing on algorithmic problems with ~1500 difficulty rating, and [LeetCode](https://leetcode.com/Aloncie/).
-- **Data Structures & Algorithms:** Binary Search, Greedy Approaches, Two Pointers / Sliding Window, Prefix Sums.
-- **Focus:** Debugging complex constraints, $O(N)$ optimizations, and preventing integer overflows in high-load scenarios.
+- **Competitive Programming:** I regularly solve [Codeforces](https://codeforces.com/profile/Aloncie) problems up to ~1500 difficulty and practice on [LeetCode](https://leetcode.com/Aloncie/).
 
 ## 🛠 Tools & Knowledge Management
 - **Environment:** Arch Linux, Neovim, Zsh.
-- **Databases & Infrastructure**: Debian Linux (Self-Hosted 24/7 Server), PostgreSQL, MySQL, Docker & Docker Compose (Multi-container Orchestration), Relational Algebra, Query Optimization.
+- **Databases & Infrastructure:** PostgreSQL (schema design, migrations), MySQL, Docker & Docker Compose, Debian Linux (self-hosted 24/7 server).
 - **Build & CI/CD:** CMake, Git (Conventional Commits), Docker (Multi-stage builds), GoogleTest & GoogleMock.
+
+## 🎯 Next
+Learning backend development in C++ (Drogon, PostgreSQL) and going deeper into multithreaded C++.
 
 ---
 
