@@ -1,4 +1,4 @@
-<img width="1792" height="592" alt="Image" src="https://github.com/Aloncie/aloncie/blob/main/ProfileBanner2.png" />
+<img src="ProfileBanner.png" alt="Aloncie banner" width="100%" />
 
 <div align = center>
   
@@ -15,7 +15,7 @@ I write systems software in modern C++ on Linux, and I care about code that is p
 
 <p align="left">
   <summary><h2><b>My stack📚</b></h2></summary>
-  <img src="https://skillicons.dev/icons?i=cpp,linux,cmake,docker,git" alt="C++, Linux, CMake, Docker, Git" title="My Tech Stack" />
+  <img src="https://skillicons.dev/icons?i=cpp,linux,cmake,docker,git,postgres" alt="C++, Linux, CMake, Docker, Git, PostgreSQL" title="My Tech Stack" />
 </p>
 
 ## 🚀 Featured Project: [Rwal](https://github.com/Aloncie/Rwal)
@@ -32,11 +32,11 @@ I write systems software in modern C++ on Linux, and I care about code that is p
 
 **Stack:** C++20, CMake, Linux API, Win32 API, D‑Bus, libcurl, ncurses, GSettings, GoogleTest & GoogleMock, Docker.
 
-## **🖥️ Infrastructure Project: Self-Hosted Debian Home Server**
+## 🖥️ Infrastructure Project: [Self-Hosted Debian Home Server](https://github.com/Aloncie/Server)
 
 *A 24/7 headless Debian Linux server providing local infrastructure, network-level security, and automated media distribution in a resource-constrained environment.*
 
-📺 [Video walkthrough](https://youtu.be/I3JlJ0OKSJ8) · [Configs & Docker Compose](https://github.com/Aloncie/Server)
+📺 [Video walkthrough](https://youtu.be/I3JlJ0OKSJ8)
 
 - **OS Administration:** Configured a lightweight headless Debian environment: BBR and IP forwarding tuning, Docker Engine, v2rayA/Xray on the host, lid-switch handling for a laptop-as-server, and containers running as a non-root user (PUID/PGID 1000).
 - **Container Orchestration:** Runs AdGuard Home (host network for DNS), Jellyfin and qBittorrent as separate Docker Compose stacks with a shared media volume, hardware transcoding through `/dev/dri` and direct play to keep CPU load low, and the qBittorrent WebUI bound to a LAN address only.
