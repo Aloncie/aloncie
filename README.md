@@ -45,7 +45,7 @@ I write systems software in modern C++ on Linux, and I care about code that is p
 **Stack:** Debian Linux, Docker, Docker Compose, systemd, Bash, AdGuard Home, Jellyfin, qBittorrent, Networking (DNS, TCP/IP, Port Forwarding).
 
 ## 📚 Education
-High school, physics-math class; olympiads in mathematics and informatics.
+High school, physics-math class
 
 ## 🧮 Algorithms & Problem Solving
 - **Competitive Programming:** I regularly solve [Codeforces](https://codeforces.com/profile/Aloncie) problems up to ~1500 difficulty and practice on [LeetCode](https://leetcode.com/Aloncie/).
